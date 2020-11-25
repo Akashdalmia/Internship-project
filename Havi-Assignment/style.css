@@ -1,0 +1,19 @@
+input[type="date"]::before {
+	color: #999;
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: #ffffff;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+	color: #999;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}
+
+.form-design{
+    margin-top: 80px;
+}
